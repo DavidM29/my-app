@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# აპლიკაციის გამოყენება
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[დაჰოსტილი აპლიკაცია](https://65a68fb566e79b12020c7da4--loquacious-marshmallow-850c2a.netlify.app/)
 
-## Available Scripts
+## ნავიგაცია
 
-In the project directory, you can run:
+![image](https://github.com/DavidM29/my-app/assets/79500334/431c4fe4-e972-4e28-b979-01ac9283149d)
 
-### `npm start`
+ყველა გვერდის თავში არის ნავიგაციის მენიუ, რომლითაც ნებისმიერ გვერდზე შეგიძლიათ გადასვლა და ამასთანავე შეგიძლიათ საიტის Theme-ის(Light Mode/Dark Mode) შეცვლა.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### პირველი გვერდი Home
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://github.com/DavidM29/my-app/assets/79500334/25c811e5-547c-4ea6-909e-d87963f2794a)
 
-### `npm test`
+ამ გვერდზე გამოსახულ ფორმაში შეგიძლიათ შეიყვანოთ პატარა პოსტი, სათაურითა და ტექსტით, "Save" ღილაკის დაჭერის შემდეგ იგი შეინახება "Local Storage"-ში და გამოგიჩნდებათ "Saved Posts" გვერდზე.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### მეორე გვერდი All Posts
 
-### `npm run build`
+![image](https://github.com/DavidM29/my-app/assets/79500334/1267af63-d0a7-40cc-a723-abb646b81149)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+აქ გამოგიჩნდებათ [API](https://jsonplaceholder.typicode.com/posts)-დან წამოღებული პოსტები.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### მესამე გვერდი Saved Posts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/DavidM29/my-app/assets/79500334/75a7fb14-c6f0-413d-8b71-0b84b8f5bb49)
 
-### `npm run eject`
+ამ გვერდზე ჩანს თქვენს მიერ შენახული "Home" გვერდზე შექმნილი და შენახული პოსტები.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# გამოყენებულია ბიბლიოთეკები
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### React Router
+### React Hook Form
+### Framer Motion
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# გამოყენებული API-ები
+### https://jsonplaceholder.typicode.com/posts
